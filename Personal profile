@@ -1,0 +1,52 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+<head>
+  <title>Responsive Web Design Projects - Build a Personal Portfolio Webpage</title>
+</head>
+
+<body>
+  <header>
+    <nav id="navbar">
+      <a href="#welcome-section" class="nav-link">About</a>
+      <a href="#projects" class="nav-link">Work</a>
+      <a href="#contacts" class="nav-link">Contact</a>
+    </nav>
+  </header>
+  
+  <main>
+    <section id="welcome-section" class="main-section">
+      <h1>Hey i'am Javali.</h1>
+      <p>a web developer</p>
+    </section>
+    <section id="projects" class="main-section">
+      <h2>These are some sample projects..</h2>
+      <div id="projects-content">
+      <a href="https://codepen.io/FreeCodeCamp/pen/NNvBQW" class="project-tile"><img src="https://cloud.githubusercontent.com/assets/15967809/17642794/d084d718-6171-11e6-83fa-ede5d0a67ad2.png" alt="tribute page preview">
+        Tribute page</a>
+         <a href="https://codepen.io/FreeCodeCamp/pen/KzXQgy" class="project-tile"><img src="https://cloud.githubusercontent.com/assets/15967809/17642775/7d354304-6171-11e6-8b56-66eee4681d88.png" alt="tic tac toe game preview">Tic Tac Toe game</a>
+         </div>
+      
+   <a href="https://codepen.io/FreeCodeCamp/" target="_blank" id="show-all">show all</a>
+    </section>
+     <section id="contacts" class="main-section">
+      <h2>Let's code together .</h2>
+      <p>How about a brunch ?</p>
+      <div id="contacts-content">
+        <div id="github"><a href="https://github.com/freecodecamp" target="_blank" id="https://github.com/bathulajavali/-Personal-Portfolio-Webpage">GitHub</a></div>
+        <div id="email"><a href="mailto:jalujavali@gmail.com" target="_blank">Send a mail</a></div>
+         </div>
+    </section>
+  </main>
+   <footer>
+    <p><em>contact me through above given details.</em></p>
+     </footer>
+</body>
